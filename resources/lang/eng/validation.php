@@ -152,6 +152,11 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name.eng' => 'english translation',
+        'name.fra' => 'french translation',
+        'name.por' => 'portuguese translation',
+        'name.spa' => 'spanish translation',
+    ],
 
 ];
