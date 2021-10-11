@@ -23,7 +23,7 @@ Route::get('/auth/google', function () {
 });
 
 Route::get('/auth/google/callback', function () {
-    $user = Socialite::driver('github')->user();
+    $user = Socialite::driver('google')->user();
 
     dd($user->token);
 });
